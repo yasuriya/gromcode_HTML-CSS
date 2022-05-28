@@ -1,15 +1,14 @@
 * {
   box-sizing: border-box;
 }
-
 .header {
-  background-color: darkturquoise;
-  height: 40px;
-  width: 100%;
   position: fixed;
+  height: 40px;
+  background-color: darkturquoise;
   z-index: 1;
   left: 0;
   top: 0;
+  width: 100%;
 }
 .navigation {
   height: 40px;
@@ -18,25 +17,27 @@
 }
 .nav-list {
   margin: 0;
-  line-height: 40px;
   z-index: 3;
 }
 .nav-item {
-  list-style-type: none;
-  color: white;
-  margin-right: 16px;
   display: inline-block;
+  position: relative;
+  left: 16px;
+  margin-right: 16px;
+  color: white;
+  line-height: 250%;
+  list-style-type: none;
   z-index: 4;
 }
 .content {
-  background-color: beige;
   height: 5000px;
+  background-color: beige;
 }
 .head {
-  height: 200px;
-  width: 200px;
-  background-color: aquamarine;
   position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
   top: calc(50% - 100px);
   left: calc(50% - 100px);
   z-index: 0;
@@ -45,28 +46,30 @@
   height: 60px;
   width: 40px;
   background-color: brown;
-  position: absolute;
 }
 .ear_left {
-  top: -60px;
-  right: -40px;
-}
-.ear_right {
+  position: absolute;
   top: -60px;
   left: -40px;
+}
+.ear_right {
+  position: absolute;
+  top: -60px;
+  left: 200px;
 }
 .eye {
   height: 30px;
   width: 30px;
   border-radius: 50%;
   background-color: grey;
-  position: absolute;
 }
 .eye_left {
-  top: 80px;
-  right: 40px;
-}
-.eye_right {
+  position: absolute;
   top: 80px;
   left: 40px;
+}
+.eye_right {
+  position: absolute;
+  top: 80px;
+  left: 130px;
 }
