@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .block {
   height: 200px;
   width: 20%;
