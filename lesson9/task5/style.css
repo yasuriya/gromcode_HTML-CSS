@@ -22,7 +22,7 @@
 .nav-item {
   list-style: none;
   color: white;
-  margin-left: 16px;
+  margin-right: 16px;
   display: inline-block;
   z-index: 4;
 }
