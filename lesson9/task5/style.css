@@ -8,6 +8,8 @@
   width: 100%;
   position: fixed;
   z-index: 1;
+  left: 0;
+  top: 0;
 }
 .navigation {
   height: 40px;
@@ -23,9 +25,7 @@
   list-style: none;
   color: white;
   margin-right: 16px;
-  position: relative;
-  left: 16px;
-  display: inline-block;
+  float: left;
   z-index: 4;
 }
 .content {
