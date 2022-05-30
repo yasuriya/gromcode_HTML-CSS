@@ -4,6 +4,6 @@
 .choose-gender {
   margin: 16px;
 }
-#lastName {
-  display: inline-block;
+#lastName-label {
+  display: block;
 }
