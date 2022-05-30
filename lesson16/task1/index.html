@@ -12,19 +12,22 @@
     />
     <title>Document</title>
     <style>
-      div {
+      .form-control {
+        margin: 16px;
+      }
+      .choose-gender {
         margin: 16px;
       }
     </style>
   </head>
   <body>
-    <div>
+    <div class="form-control">
       <input type="text" value="Emerson" />
     </div>
-    <div>
+    <div class="form-control">
       <input type="number" value="17" />
     </div>
-    <div>
+    <div class="form-control">
       <input type="checkbox" name="agree" />
       <label for="checkbox">Accept terms and conditions</label>
     </div>
@@ -36,14 +39,14 @@
       <input type="radio" name="gender" />
       <label for="gender-secret">Secret</label>
     </div>
-    <div>
+    <div class="form-control">
       <input
         type="textarea"
         name="description"
         placeholder="Write description..."
       />
     </div>
-    <div>
+    <div class="form-control">
       <button type="submit">Submit</button>
     </div>
   </body>
