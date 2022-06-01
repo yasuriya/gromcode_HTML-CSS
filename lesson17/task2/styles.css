@@ -29,11 +29,11 @@ thead {
   background-color: aqua;
 }
 tr {
-  line-height: 40px;
+  height: 40px;
 }
 
 caption {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 tfoot {
   font-weight: 700;
