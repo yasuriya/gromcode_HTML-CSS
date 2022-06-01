@@ -13,7 +13,6 @@ th,
 td {
   padding: 4px;
   border: 1px solid black;
-  line-height: 40px;
 }
 tbody > tr:nth-child(odd) {
   background-color: #f2f2f2;
@@ -28,6 +27,9 @@ tbody > tr:hover {
 }
 thead {
   background-color: aqua;
+}
+tr {
+  line-height: 40px;
 }
 
 caption {
