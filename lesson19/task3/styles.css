@@ -25,7 +25,7 @@
   height: 4px;
   background-color: black;
   border-radius: 2px;
-  animation: blinking 2s, moving 2s;
+  animation: moving 2s, blinking 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   position: absolute;
