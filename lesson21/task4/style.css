@@ -58,6 +58,8 @@ body {
   list-style: none;
 }
 .nav-list-item {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
   background-color: #808080;
   color: white;
   line-height: 2em;
@@ -67,8 +69,6 @@ body {
   text-overflow: ellipsis;
 }
 .nav-list-link {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
   text-decoration: none;
   color: white;
 }
