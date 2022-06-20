@@ -62,13 +62,13 @@ body {
   color: white;
   line-height: 2em;
   margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .nav-list-link {
   padding-left: 0.5em;
   padding-right: 0.5em;
   text-decoration: none;
   color: white;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
