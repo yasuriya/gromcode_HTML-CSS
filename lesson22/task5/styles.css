@@ -98,12 +98,12 @@ img {
     flex-direction: row;
   }
   .navigation {
-    width: 20%;
+    width: 20vw;
   }
   .section {
-    width: 60%;
+    width: 60vw;
   }
   .news {
-    width: 20%;
+    width: 20vw;
   }
 }
