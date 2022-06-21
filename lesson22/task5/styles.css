@@ -30,16 +30,13 @@ body {
 }
 .navigation {
   padding: 0.5em;
-  width: 20%;
 }
 .section {
   padding: 0.5em;
-  width: 60%;
   font-size: 1.25em;
 }
 .news {
   padding: 0.5em;
-  width: 20%;
 }
 .units-list {
   line-height: 1.75em;
@@ -82,12 +79,18 @@ img {
   .nav-section {
     display: flex;
     width: 100%;
+    flex-grow: 1;
   }
   .news {
     width: 100%;
+    flex-grow: 0;
   }
   .navigation {
+    flex-grow: 1;
     width: 20%;
+  }
+  .section {
+    width: 80%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -95,9 +98,12 @@ img {
     flex-direction: row;
   }
   .navigation {
-    width: 20vw;
+    width: 20%;
   }
   .section {
-    width: 60vw;
+    width: 60%;
+  }
+  .news {
+    width: 20%;
   }
 }
