@@ -1,5 +1,4 @@
 .header {
-  height: 56px;
   background-color: #eee;
 }
 
@@ -16,7 +15,7 @@
 .nav-list__item {
   background-color: #ff7f50;
   padding: 8px;
-  margin-left: 16px;
+  margin-left: 8px;
   border-radius: 4px;
   cursor: pointer;
 }
