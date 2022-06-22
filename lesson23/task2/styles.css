@@ -21,7 +21,7 @@
   background-color: #ff7f50;
   margin: 8px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .square {
     background-color: #8a2be2;
   }
