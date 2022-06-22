@@ -1,0 +1,22 @@
+@import 'layout.scss';
+
+@include for-small-up {
+  .products {
+    display: flex;
+  }
+  .navigation,
+  .products-list {
+    flex: 1;
+  }
+}
+@include for-large-up {
+  .container {
+    display: flex;
+  }
+  .products {
+    flex: 2;
+  }
+  .news {
+    flex: 1;
+  }
+}
